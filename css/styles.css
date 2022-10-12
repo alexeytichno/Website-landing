@@ -3,6 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #8D96BD;
+  padding-top: 5.25rem;
 }
 
 .section-outer {
@@ -215,7 +216,7 @@ h2 {
 }
 
 .section-header {
-  position: relative;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -251,7 +252,6 @@ h2 {
 }
 @media (max-width: 991px) {
   .section-header .main-nav__inner-wrap {
-    display: none;
     position: absolute;
     z-index: 10;
     top: 100%;
@@ -266,7 +266,6 @@ h2 {
   .main-nav__inner-wrap {
     flex-direction: column;
     margin-left: 0;
-    margin-top: 1.25rem;
   }
   .main-nav__inner-wrap .socials,
 .main-nav__inner-wrap .nav {
@@ -276,7 +275,6 @@ h2 {
 .main-nav__inner-wrap .btn-wrapper,
 .main-nav__inner-wrap .socials {
     margin-left: 0;
-    margin-top: 1.25rem;
   }
   .main-nav__inner-wrap .copyright {
     margin-left: 0;
