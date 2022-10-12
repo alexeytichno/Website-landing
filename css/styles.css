@@ -252,6 +252,7 @@ h2 {
 }
 @media (max-width: 991px) {
   .section-header .main-nav__inner-wrap {
+    display: none;
     position: absolute;
     z-index: 10;
     top: 100%;
